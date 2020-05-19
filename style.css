@@ -1,0 +1,38 @@
+p:first-of-type{
+    color: tomato;
+}
+ p:last-of-type{
+    color: tomato;
+} 
+
+ h1:first-child{
+    color: tomato;
+} 
+
+p:nth-of-type(1){
+    color: tomato;
+} 
+
+ p:not(:hover){
+    background: rebeccapurple;
+} 
+
+h1::after{
+    content: "!";
+}
+
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 2rem;
+} 
+
+ a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+} 
